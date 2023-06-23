@@ -59,7 +59,7 @@ Filename: _Homo_sapiens.GRCh38.dna.primary_assembly.fa_
 
 2.  RPF reads with ribosome P-site positions mapping within transcript coding region sequences (CDS) were again counted using FeatureCounts. This is only done for RPF reads. For RNAseq reads, we use exon as target mapping features. RPF-CDS mapped reads from RPF libraries and the mRNA exons mapped reads from RNAseq libraries are used for further measurements of differential translation and mRNA expression.  --> ``` Make_RIVET_ready_FeatureCounts_table.R ``` and ``` CDS_extracted_RPF_alignment_files.sh ```
     
-3.  Ribosomal investigation and visualization to evaluate translation (RIVET) was used for translation and expression analysis of the representative transcripts (similar results were obtained for gene-level analysis).
+3.  Ribosomal investigation and visualization to evaluate translation (RIVET) was used for translation and expression analysis of the representative transcripts (similar results were obtained for gene-level analysis). (RIVET:Ernlund, A., Schneider, R.J. & Ruggles, K. RIVET: comprehensive graphic user interface for analysis and exploration of genome-wide translatomics data. BMC Genomics 19, 809 (2018). https://doi.org/10.1186/s12864-018-5166-z)
     No fold change cut-offs were directly applied so that more subtle changes in translation could also be detected. Regulated transcripts were therefore nominally identified by statistical significance. 
     Translation regulation categories were defined according to RIVET on the basis of mRNA expression and ribosome occupancy, derived from normalized total RNA read counts or RPF read counts mapping to protein-coding mRNA transcripts (CDS), respectively.
 
