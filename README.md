@@ -106,4 +106,4 @@ The RNA sequencing data have been deposited to GEO under accession code GSE15347
 * SCALE REGIONS :
     I used RPKM with nooffset for ALL/NS/DOWN/UP.
 
-
+_End of the document_
