@@ -66,7 +66,7 @@ Filename: _Homo_sapiens.GRCh38.dna.primary_assembly.fa_
 
 5.  Plots from the resulting RIVET output files were generated using the ggplot2 package in R. : This step is done by Martin Jansson. I will add these scripts to here. **#TODO**
  
-6.  GO and GSEA : All GO analyses of ribosome profiling and proteomic data were performed using WebGestalt using the over-representation test against the GO biological process database58. GSEA was performed using GSEA software (v.4.0.3). Genes for analysis were preranked according to log2 FC in translation from RIVET analysis (Padj < 0.05) and compared to a custom gene set (containing 112 distinct human genes) compiled from those previously described to contain experimentally validated IRES elements, or that associated with polysomes following cap-dependent translation inhibition.
+6.  GO and GSEA : All GO analyses of ribosome profiling and proteomic data were performed using WebGestalt using the over-representation test against the GO biological process database58. GSEA was performed using GSEA software (v.4.0.3). Genes for analysis were preranked according to log2 FC in translation from RIVET analysis (Padj < 0.05) and compared to a custom gene set (containing 112 distinct human genes) compiled from those previously described to contain experimentally validated IRES elements, or that associated with polysomes following cap-dependent translation inhibition. (WebGestalt: Liao, Y., Wang, J., Jaehnig, E., Shi, Z., Zhang, B. WebGestalt 2019: gene set analysis toolkit with revamped UIs and APIs, Nucleic Acids Research, gkz401)
 
     :This is done by Martin Jansson. I will add these scripts to here. **#TODO**
 
