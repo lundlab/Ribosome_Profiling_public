@@ -5,7 +5,7 @@ The main scripts & their documentation for Ribosome Profiling analysis
 
 **Author:** Kübra Altinel
 
-**Complitation date:** 23rd July 2022
+**Compilation date:** 23rd July 2022
 
 **Last update:** 23rd June 2023
 
